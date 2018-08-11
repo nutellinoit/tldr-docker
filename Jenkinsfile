@@ -6,10 +6,6 @@ node {
         checkout scm
     }
 
-    stage('Force update submodules') {
-        sh "git submodule update --init --recursive"
-    }
-
     stage('Copy dir') {
         sh "cp -r tldr-node-client build-docker/rootfs"
     }
