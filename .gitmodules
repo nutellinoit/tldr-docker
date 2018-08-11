@@ -1,3 +1,6 @@
 [submodule "tldr"]
 	path = tldr
 	url = https://github.com/tldr-pages/tldr.git
+[submodule "tldr-node-client"]
+	path = tldr-node-client
+	url = https://github.com/tldr-pages/tldr-node-client.git

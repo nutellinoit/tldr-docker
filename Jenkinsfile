@@ -7,7 +7,7 @@ node {
     }
 
     stage('Copy dir') {
-        sh "cp -r tldr build-docker/rootfs"
+        sh "cp -r tldr-node-client build-docker/rootfs"
     }
 
     stage('Build image') {
