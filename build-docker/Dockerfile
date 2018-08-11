@@ -9,5 +9,5 @@ RUN rm .git
 RUN git init
 RUN npm install -g --unsafe-perm
 RUN apk del python make g++
-ENTRYPOINT ["npm","start"]
+ENTRYPOINT ["tldr-lint"]
 CMD ["--help"]
