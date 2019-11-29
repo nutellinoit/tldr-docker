@@ -11,7 +11,7 @@ node {
     }
 
     stage('Build image') {
-        app = docker.build("nutellinoit/tldr","build-docker/")
+        app = docker.build("nutellinoit/tldr","--pull","build-docker/")
     }
 
     stage('Delete dir') {
